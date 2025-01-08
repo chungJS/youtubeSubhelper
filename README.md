@@ -19,7 +19,7 @@ It streamlines the process of creating subtitles and dubbing by automating speec
 
 ## Contributers
 
-[![member](https://github.com/chungJS/youtubeSubhelper/raw/main/img/member.png)](https://github.com/orgs/captive-design-2024/repositories)
+[![member](https://github.com/chungJS/youtubeSubhelper/raw/main/img/members.png)](https://github.com/orgs/captive-design-2024/repositories)
 
 ## Features
 
