@@ -14,7 +14,6 @@ It streamlines the process of creating subtitles and dubbing by automating speec
 - [Prerequisite](#Prerequisite)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Reference](#Reference)
 
 <!-- vim-markdown-toc -->
 
