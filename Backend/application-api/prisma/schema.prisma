@@ -1,0 +1,80 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(uuid())
+  user_name    String
+  login_id     String   @unique
+  password     String
+  email        String   @unique
+  phone_number String   @unique
+  created_at   DateTime @default(now())
+
+  projects Project[]
+  TTS      TTS[]
+}
+
+model Project {
+  id        String   @id @default(uuid())
+  userId    String
+  link      String
+  name      String
+  createdAt DateTime @default(now())
+
+  user    User     @relation(fields: [userId], references: [id])
+  caption Caption?
+  voice   Voice?
+  result  Result?
+}
+
+model Caption {
+  id String  @id @default(uuid())
+  kr String?
+  en String?
+  ja String?
+  es String?
+  de String?
+  fr String?
+
+  urlId    String  @unique
+  projects Project @relation(fields: [urlId], references: [id], onDelete: Cascade)
+}
+
+model Voice {
+  id      String  @id @default(uuid())
+  myVoice String?
+  en      String?
+
+  urlId    String  @unique
+  projects Project @relation(fields: [urlId], references: [id])
+}
+
+model Result {
+  id      String @id @default(uuid())
+  title   String
+  keyword String
+
+  urlId    String  @unique
+  projects Project @relation(fields: [urlId], references: [id])
+}
+
+model TTS {
+  id         String   @id @default(uuid())
+  name       String
+  model_link String[]
+  dataset    String
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+}
