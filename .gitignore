@@ -1,0 +1,8 @@
+dist/
+node_modules/
+.env
+.vscode/
+.DS_Store
+
+Backend/worker-api/storage
+Backend/inference-api/model
