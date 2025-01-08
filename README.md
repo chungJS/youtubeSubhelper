@@ -19,7 +19,10 @@ It streamlines the process of creating subtitles and dubbing by automating speec
 
 ## Contributers
 
-[![member](https://github.com/chungJS/youtubeSubhelper/raw/main/img/members.png)](https://github.com/orgs/captive-design-2024/repositories)
+- [정준석](https://github.com/chungJS) - joonseok.chung@gmail.com : Leader, Backend
+- [이재용](https://github.com/ljy-27) - tomasjy@gmail.com : Backend
+- [최원석](https://github.com/dnjstjr0930) - dnjstjr0930@gmail.com : Frontend
+- [김범서](https://github.com/bumseokim) - toraonine9@gmail.com : Frontend
 
 ## Features
 
