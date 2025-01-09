@@ -68,4 +68,4 @@ docker compose up -d
 
 ### LJSpeech dataset
 
-![ljs](https://github.com/chungJS/youtubeSubhelper/raw/main/img/ljs.png)
+![ljspeech](https://github.com/chungJS/youtubeSubhelper/raw/main/img/ljspeech.png)
