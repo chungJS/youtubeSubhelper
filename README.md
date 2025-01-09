@@ -52,10 +52,20 @@ docker compose up -d
 
 ### connect to localhost:3001
 
+![3001](https://github.com/chungJS/youtubeSubhelper/raw/main/img/connect3001.png)
+
 ### Register
+
+![login](https://github.com/chungJS/youtubeSubhelper/raw/main/img/login.png)
 
 ### Mypage
 
+![mypage](https://github.com/chungJS/youtubeSubhelper/raw/main/img/mypage.png)
+
 ### Subtitle and Dubbing
 
+![subdub](https://github.com/chungJS/youtubeSubhelper/raw/main/img/subdub.png)
+
 ### LJSpeech dataset
+
+![LJS](https://github.com/chungJS/youtubeSubhelper/raw/main/img/ljs.png)
