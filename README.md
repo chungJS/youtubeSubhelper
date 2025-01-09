@@ -29,6 +29,7 @@ It streamlines the process of creating subtitles and dubbing by automating speec
 - Generate Korean Subtitles from Youtube link
 - Spell check
 - Multilingual Translated SRT file
+- Recommend title and keywords
 - LJSpeech dataset generation using multiple Youtube links
 - Full Dubbing audio file using trained model
 
@@ -50,22 +51,22 @@ docker compose up -d
 
 ## Usage
 
-### connect to localhost:3001
+1. connect to localhost:3001
 
 ![3001](https://github.com/chungJS/youtubeSubhelper/raw/main/img/connect3001.PNG)
 
-### Register
+2. login
 
 ![login](https://github.com/chungJS/youtubeSubhelper/raw/main/img/login.PNG)
 
-### Mypage
+3. Goto Mypage and select a feature
 
 ![mypage](https://github.com/chungJS/youtubeSubhelper/raw/main/img/mypage.PNG)
 
-### Subtitle and Dubbing
+4. generate Subtitle, recommendation and Dubbing
 
-![subdub](https://github.com/chungJS/youtubeSubhelper/raw/main/img/subdub.PNG)
+![subdub](https://github.com/chungJS/youtubeSubhelper/raw/main/img/sub.png)
 
-### LJSpeech dataset
+5. generate LJSpeech dataset
 
 ![ljspeech](https://github.com/chungJS/youtubeSubhelper/raw/main/img/ljspeech.png)
