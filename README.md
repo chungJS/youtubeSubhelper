@@ -31,7 +31,7 @@ It streamlines the process of creating subtitles and dubbing by automating speec
 
 ## Diagram
 
-![diagram](https://github.com/chungJS/youtubeSubhelper/raw/main/img/diagram.png)
+![diagram](img/diagram.png)
 
 ## Prerequisite
 
@@ -49,20 +49,20 @@ docker compose up -d
 
 1. connect to localhost:3001
 
-![3001](https://github.com/chungJS/youtubeSubhelper/raw/main/img/connect3001.PNG)
+![3001](img/connect3001.PNG)
 
 2. login
 
-![login](https://github.com/chungJS/youtubeSubhelper/raw/main/img/login.PNG)
+![login](img/login.PNG)
 
 3. Goto Mypage and select a feature
 
-![mypage](https://github.com/chungJS/youtubeSubhelper/raw/main/img/mypage.PNG)
+![mypage](img/mypage.PNG)
 
 4. generate Subtitle, recommendation and Dubbing
 
-![subdub](https://github.com/chungJS/youtubeSubhelper/raw/main/img/sub.png)
+![subdub](img/sub.png)
 
 5. generate LJSpeech dataset
 
-![ljspeech](https://github.com/chungJS/youtubeSubhelper/raw/main/img/ljs.png)
+![ljspeech](img/ljs.png)
