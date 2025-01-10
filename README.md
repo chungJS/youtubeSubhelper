@@ -1,4 +1,4 @@
-<img width="128px" src="https://github.com/chungJS/youtubeSubhelper/raw/main/img/logo.png" alt="Logo" align="left" />
+<img width="128px" src="img/logo.png" alt="Logo" align="left" />
 
 # Youtube Subhelper
 
