@@ -6,16 +6,12 @@ Youtube Subhelper is a program that creates multilingual subtitles and voice-clo
 
 It streamlines the process of creating subtitles and dubbing by automating speech recognition, translation, and text-to-speech synthesis. Additionally, the program can generate LJSpeech datasets from multiple YouTube links for further training or research purposes.
 
-<!-- vim-markdown-toc GFM -->
-
 - [Contributers](#Contributers)
 - [Features](#Features)
 - [Diagram](#Diagram)
 - [Prerequisite](#Prerequisite)
 - [Installation](#Installation)
 - [Usage](#Usage)
-
-<!-- vim-markdown-toc -->
 
 ## Contributers
 
